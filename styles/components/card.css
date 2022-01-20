@@ -1,0 +1,55 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  background-color: lightgoldenrodyellow;
+  height: max-content;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.card__bookmark {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  border-radius: 5px;
+}
+
+.card__heading {
+  margin-left: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card__question {
+  margin: 5px 10px 20px;
+}
+
+.card__summary {
+  margin: 10px auto 15px;
+  padding: 5px;
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid black;
+  width: max-content;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.card__summary:hover {
+  background-color: lightsalmon;
+  color: white;
+}
+
+.card__ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 40px;
+  list-style-type: none;
+}
+
+.card__ul-li {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightsteelblue;
+}

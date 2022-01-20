@@ -21,3 +21,11 @@
 .bg-hotpink {
   background-color: hotpink;
 }
+
+.width-400 {
+  width: 400px;
+}
+
+.height-400 {
+  height: 400px;
+}
