@@ -6,8 +6,6 @@
   height: max-content;
   max-width: 400px;
   margin: 30px auto;
-  xdisplay: flex;
-  xflex-direction: column;
 }
 
 .card__bookmark {
@@ -47,10 +45,10 @@
   justify-content: space-around;
   padding: 0;
   margin-top: 40px;
+  list-style-type: none;
 }
 
 .card__ul-li {
-  list-style-type: none;
   border-radius: 5px;
   padding: 5px;
   background-color: lightsteelblue;

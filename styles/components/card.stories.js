@@ -1,5 +1,5 @@
 export default {
-  title: "Components/card",
+  title: "Components/Card",
 };
 
 export const Default = () => `<section class="card">
@@ -13,7 +13,7 @@ voluptas quisquam numquam aut nostrum, voluptatum voluptatibus nobis.</p>
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua.
         </details>
-<ul class="card__ul">
+<ul role="list class="card__ul">
   <li class="card__ul__li">Tag 1</li>
   <li class="card__ul__li">Tag 2</li>
   <li class="card__ul__li">Tag 3</li>
