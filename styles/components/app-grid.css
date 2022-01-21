@@ -1,6 +1,7 @@
 .app-grid {
   display: grid;
   grid-template-rows: 48px 1fr 48px;
+  height: 100vh;
 }
 
 .app-grid__scrollarea {

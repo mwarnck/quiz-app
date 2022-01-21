@@ -1,0 +1,9 @@
+.header {
+  text-align: center;
+  background-color: cadetblue;
+  font-family: sans-serif;
+  font-size: 2rem;
+  justify-self: stretch;
+  align-self: center;
+  margin: 0;
+}
