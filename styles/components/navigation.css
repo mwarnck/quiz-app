@@ -1,0 +1,14 @@
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: cadetblue;
+}
+
+.navigation__button {
+  display: grid;
+  place-items: center;
+}
+
+.display-c {
+  display: contents;
+}
