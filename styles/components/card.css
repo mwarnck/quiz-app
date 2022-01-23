@@ -35,21 +35,25 @@
   border-radius: 10px;
 }
 
-.card__summary:hover {
-  background-color: lightsalmon;
-  color: white;
-}
-
 .card__ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  align-items: baseline;
   padding: 0;
   margin-top: 40px;
-  list-style-type: none;
 }
 
-.card__ul-li {
+.card__ul li {
   border-radius: 5px;
   padding: 5px;
   background-color: lightsteelblue;
+}
+
+.card__answer[open] summary::after {
+  content: attr(data-open);
+}
+
+.card__answer:not([open]) summary::after {
+  content: attr(data-closed);
 }
