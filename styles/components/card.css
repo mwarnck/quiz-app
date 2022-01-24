@@ -15,6 +15,11 @@
   border-radius: 5px;
 }
 
+.card__bookmark--filled {
+  background-color: hotpink;
+  color: white;
+}
+
 .card__heading {
   margin-left: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
