@@ -1,10 +1,10 @@
-@import "./colors.css";
-@import "./base.css";
-@import "./utility.css";
+@import './colors.css';
+@import './base.css';
+@import './utility.css';
 
-@import "./components/app-grid.css";
-@import "./components/card.css";
-@import "./components/header.css";
-@import "./components/navigation.css";
-@import "./components/form.css";
-@import "./components/profile.css";
+@import './components/app-grid.css';
+@import './components/card.css';
+@import './components/header.css';
+@import './components/navigation.css';
+@import './components/form.css';
+@import './components/profile.css';

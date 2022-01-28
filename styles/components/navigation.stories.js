@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Navigation",
+  title: 'Components/Navigation',
 };
 
 export const Default = () => `<nav class="navigation w-375 h-48">

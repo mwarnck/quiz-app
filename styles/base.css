@@ -7,6 +7,6 @@ body {
   padding: 0;
 }
 
-ul[role="list"] {
+ul[role='list'] {
   list-style: none;
 }

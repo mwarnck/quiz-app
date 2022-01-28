@@ -1,5 +1,5 @@
 export default {
-  title: "Components/Form",
+  title: 'Components/Form',
 };
 
 export const Default =
