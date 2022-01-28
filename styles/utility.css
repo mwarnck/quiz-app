@@ -37,3 +37,7 @@
 .w-375 {
   width: 375px;
 }
+
+.dp-hide {
+  display: none;
+}

@@ -29,15 +29,15 @@
   margin: 5px 10px 20px;
 }
 
-.card__summary {
-  margin: 10px auto 15px;
-  padding: 5px;
-  text-align: center;
-  list-style-type: none;
-  border: 1px solid black;
-  width: max-content;
-  background-color: lightgrey;
-  border-radius: 10px;
+.card__answer {
+  margin: 5px 10px 20px;
+}
+
+.card__answer-button {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  background-color: coral;
+  border-radius: 20px;
 }
 
 .card__ul {
@@ -53,12 +53,4 @@
   border-radius: 5px;
   padding: 5px;
   background-color: lightsteelblue;
-}
-
-.card__answer[open] summary::after {
-  content: attr(data-open);
-}
-
-.card__answer:not([open]) summary::after {
-  content: attr(data-closed);
 }
