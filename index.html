@@ -9,8 +9,11 @@
     <script type="module" defer src="./index.js"></script>
   </head>
   <body class="app-grid">
-    <h1 class="header">Quiz App</h1>
-    <main class="app-grid__scrollarea">
+    <h1 data-js="header-home" class="header">Quiz App</h1>
+    <h1 data-js="header-bookmarks" class="header dp-hide">Bookmarks</h1>
+    <h1 data-js="header-create" class="header dp-hide">Create</h1>
+    <h1 data-js="header-profile" class="header dp-hide">Profile</h1>
+    <main data-js="home" class="app-grid__scrollarea">
       <section class="card">
         <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
@@ -80,6 +83,138 @@
         </ul>
       </section>
     </main>
+
+    <main data-js="bookmark" class="app-grid__scrollarea dp-hide">
+      <section class="card">
+        <button class="card__bookmark">Bookmark</button>
+        <h2 class="card__heading">Question:</h2>
+        <p class="card__question">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
+          voluptas quisquam numquam aut nostrum, voluptatum voluptatibus nobis.
+        </p>
+        <button data-js="answer-button" class="card__answer-button">
+          Show Answer
+        </button>
+        <p data-js="answer-text" class="card__answer dp-hide">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <ul role="list" class="card__ul">
+          <li class="card__ul__li">Tag 1</li>
+          <li class="card__ul__li">Tag 2</li>
+          <li class="card__ul__li">Tag 3</li>
+          <li class="card__ul__li">Tag 4</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <button class="card__bookmark">Bookmark</button>
+        <h2 class="card__heading">Question:</h2>
+        <p class="card__question">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
+          voluptas quisquam numquam aut nostrum, voluptatum voluptatibus nobis.
+        </p>
+        <button data-js="answer-button" class="card__answer-button">
+          Show Answer
+        </button>
+        <p data-js="answer-text" class="card__answer dp-hide">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <ul role="list" class="card__ul">
+          <li class="card__ul__li">Tag 1</li>
+          <li class="card__ul__li">Tag 2</li>
+          <li class="card__ul__li">Tag 3</li>
+          <li class="card__ul__li">Tag 4</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <button class="card__bookmark">Bookmark</button>
+        <h2 class="card__heading">Question:</h2>
+        <p class="card__question">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
+          voluptas quisquam numquam aut nostrum, voluptatum voluptatibus nobis.
+        </p>
+        <button data-js="answer-button" class="card__answer-button">
+          Show Answer
+        </button>
+        <p data-js="answer-text" class="card__answer dp-hide">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua.
+        </p>
+        <ul role="list" class="card__ul">
+          <li class="card__ul__li">Tag 1</li>
+          <li class="card__ul__li">Tag 2</li>
+          <li class="card__ul__li">Tag 3</li>
+          <li class="card__ul__li">Tag 4</li>
+        </ul>
+      </section>
+    </main>
+
+    <main data-js="create" class="app-grid__scrollarea dp-hide">
+      <form class="form w-375" action="" aria-labelledby="form-create-question">
+        <label for="your-question" class="form__label">Your question:</label>
+        <output data-js="output-question" class="form__output"
+          >200 characters remaining</output
+        >
+        <textarea
+          data-js="textarea-question"
+          id="your-question"
+          class="form__textarea"
+          cols="10"
+          rows="5"
+          required
+        ></textarea>
+        <label for="your-answer" class="form__label">Your answer:</label>
+        <output data-js="output-answer" class="form__output"
+          >200 characters remaining</output
+        >
+        <textarea
+          data-js="textarea-answer"
+          id="your-answer"
+          class="form__textarea"
+          cols="10"
+          rows="5"
+          required
+        ></textarea>
+        <label for="your-tags">Your tags:</label>
+        <input id="your-tags" type="text" required />
+        <button type="submit" class="form__button">Submit</button>
+      </form>
+    </main>
+
+    <main data-js="profile" class="app-grid__scrollarea dp-hide">
+      <section class="profile w-375">
+        <figure class="profile__img">
+          <img
+            src="https://source.unsplash.com/random/120x120?portrait"
+            alt=""
+            width="120"
+            height="120"
+          />
+          <figcaption>Profile name</figcaption>
+        </figure>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
+          voluptas quisquam numquam aut nostrum, voluptatum voluptatibus nobis.
+          Illum, dignissimos delectus voluptate possimus voluptatem suscipit
+          magni odit! Optio, qui ullam.
+        </p>
+        <p>Skills</p>
+        <ul role="list" class="profile__ul">
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+        </ul>
+        <button class="profile__button" type="submit">Logout</button>
+      </section>
+    </main>
+
     <nav class="navigation">
       <ul role="list" class="display-c">
         <li class="display-c">
