@@ -14,3 +14,12 @@
   margin-top: 15px;
   margin-bottom: 25px;
 }
+
+.form__output {
+  font-size: 0.7rem;
+  margin: 0 0 1px auto;
+}
+
+.form__textarea {
+  margin: 0 5px 5px;
+}
