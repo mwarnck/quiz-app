@@ -38,7 +38,7 @@
       </section>
 
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
         <p class="card__question">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
@@ -61,7 +61,7 @@
       </section>
 
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
         <p class="card__question">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
@@ -84,9 +84,9 @@
       </section>
     </main>
 
-    <main data-js="bookmark" class="app-grid__scrollarea dp-hide">
+    <main data-js="bookmarks" class="app-grid__scrollarea dp-hide">
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
         <p class="card__question">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
@@ -109,7 +109,7 @@
       </section>
 
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
         <p class="card__question">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
@@ -132,7 +132,7 @@
       </section>
 
       <section class="card">
-        <button class="card__bookmark">Bookmark</button>
+        <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
         <p class="card__question">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi earum
@@ -218,24 +218,32 @@
     <nav class="navigation">
       <ul role="list" class="display-c">
         <li class="display-c">
-          <a href="#" class="navigation__button"
-            ><img src="./images/home.svg" alt="" width="40" height="40"
-          /></a>
+          <button
+            data-js="button-home"
+            class="navigation__button navigation__button--active"
+          >
+            <img src="../../images/home.svg" alt="" width="40" height="40" />
+          </button>
         </li>
         <li class="display-c">
-          <a href="./bookmark.html" class="navigation__button"
-            ><img src="./images/bookmark.svg" alt="" width="40" height="40"
-          /></a>
+          <button data-js="button-bookmarks" class="navigation__button">
+            <img
+              src="../../images/bookmark.svg"
+              alt=""
+              width="40"
+              height="40"
+            />
+          </button>
         </li>
         <li class="display-c">
-          <a href="./create.html" class="navigation__button"
-            ><img src="./images/create.svg" alt="" width="40" height="40"
-          /></a>
+          <button data-js="button-create" class="navigation__button">
+            <img src="../../images/create.svg" alt="" width="40" height="40" />
+          </button>
         </li>
         <li class="display-c">
-          <a href="./profile.html" class="navigation__button"
-            ><img src="./images/profile.svg" alt="" width="40" height="40"
-          /></a>
+          <button data-js="button-profile" class="navigation__button">
+            <img src="../../images/profile.svg" alt="" width="40" height="40" />
+          </button>
         </li>
       </ul>
     </nav>

@@ -5,24 +5,24 @@ export default {
 export const Default = () => `<nav class="navigation w-375 h-48">
 <ul role="list" class="display-c">
   <li class="display-c">
-    <a href="#" class="navigation__button"
+    <button class="navigation__button"
       ><img src="../../images/home.svg" alt="" width="40" height="40"
-    /></a>
+    /></button>
   </li>
   <li class="display-c">
-    <a href="./bookmark.html" class="navigation__button"
+    <button class="navigation__button"
       ><img src="../../images/bookmark.svg" alt="" width="40" height="40"
-    /></a>
+    /></button>
   </li>
   <li class="display-c">
-    <a href="./create.html" class="navigation__button"
+    <button class="navigation__button"
       ><img src="../../images/create.svg" alt="" width="40" height="40"
-    /></a>
+    /></button>
   </li>
   <li class="display-c">
-    <a href="./profile.html" class="navigation__button"
+    <button class="navigation__button"
       ><img src="../../images/profile.svg" alt="" width="40" height="40"
-    /></a>
+    /></button>
   </li>
 </ul>
 </nav>`;
