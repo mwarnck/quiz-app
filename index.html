@@ -9,11 +9,11 @@
     <script type="module" defer src="./index.js"></script>
   </head>
   <body class="app-grid">
-    <h1 data-js="header-home" class="header">Quiz App</h1>
-    <h1 data-js="header-bookmarks" class="header dp-hide">Bookmarks</h1>
-    <h1 data-js="header-create" class="header dp-hide">Create</h1>
-    <h1 data-js="header-profile" class="header dp-hide">Profile</h1>
-    <main data-js="home" class="app-grid__scrollarea">
+    <h1 data-header="home" class="header">Quiz App</h1>
+    <h1 data-header="bookmarks" class="header dp-hide">Bookmarks</h1>
+    <h1 data-header="create" class="header dp-hide">Create</h1>
+    <h1 data-header="profile" class="header dp-hide">Profile</h1>
+    <main data-page="home" class="app-grid__scrollarea">
       <section class="card">
         <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
@@ -84,7 +84,7 @@
       </section>
     </main>
 
-    <main data-js="bookmarks" class="app-grid__scrollarea dp-hide">
+    <main data-page="bookmarks" class="app-grid__scrollarea dp-hide">
       <section class="card">
         <button data-js="button-fill" class="card__bookmark">Bookmark</button>
         <h2 class="card__heading">Question:</h2>
@@ -155,7 +155,7 @@
       </section>
     </main>
 
-    <main data-js="create" class="app-grid__scrollarea dp-hide">
+    <main data-page="create" class="app-grid__scrollarea dp-hide">
       <form class="form w-375" action="" aria-labelledby="form-create-question">
         <label for="your-question" class="form__label">Your question:</label>
         <output data-js="output-question" class="form__output"
@@ -187,7 +187,7 @@
       </form>
     </main>
 
-    <main data-js="profile" class="app-grid__scrollarea dp-hide">
+    <main data-page="profile" class="app-grid__scrollarea dp-hide">
       <section class="profile w-375">
         <figure class="profile__img">
           <img
@@ -219,14 +219,14 @@
       <ul role="list" class="display-c">
         <li class="display-c">
           <button
-            data-js="button-home"
+            data-nav="home"
             class="navigation__button navigation__button--active"
           >
             <img src="../../images/home.svg" alt="" width="40" height="40" />
           </button>
         </li>
         <li class="display-c">
-          <button data-js="button-bookmarks" class="navigation__button">
+          <button data-nav="bookmarks" class="navigation__button">
             <img
               src="../../images/bookmark.svg"
               alt=""
@@ -236,12 +236,12 @@
           </button>
         </li>
         <li class="display-c">
-          <button data-js="button-create" class="navigation__button">
+          <button data-nav="create" class="navigation__button">
             <img src="../../images/create.svg" alt="" width="40" height="40" />
           </button>
         </li>
         <li class="display-c">
-          <button data-js="button-profile" class="navigation__button">
+          <button data-nav="profile" class="navigation__button">
             <img src="../../images/profile.svg" alt="" width="40" height="40" />
           </button>
         </li>
