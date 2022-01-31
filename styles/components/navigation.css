@@ -7,8 +7,14 @@
 .navigation__button {
   display: grid;
   place-items: center;
+  background-color: cadetblue;
+  border-style: none;
 }
 
 .display-c {
   display: contents;
+}
+
+.navigation__button--active {
+  background-color: hotpink;
 }
