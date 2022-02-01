@@ -1,8 +1,6 @@
-//import { answerButton } from './js/answerButton.js';
-//import { bookmarks } from './js/bookmark.js';
-import { form } from './js/form.js';
-import { navigation } from './js/navigation.js';
-import Card from './js/Card.js';
+import { form } from './components/form.js';
+import { navigation } from './components/navigation.js';
+import Card from './components/Card.js';
 
 const allCardElements = document.querySelectorAll('[data-js="card"]');
 
@@ -10,7 +8,5 @@ allCardElements.forEach(cardElement => {
   Card(cardElement);
 });
 
-//bookmarks();
-//answerButton();
 form();
 navigation();
